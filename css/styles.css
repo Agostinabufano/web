@@ -1,0 +1,234 @@
+body {
+  margin: 0%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body a {
+  color: orangered;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-items: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: black;
+  font-display: bold;
+}
+header figure {
+  width: 50px;
+  margin: 0%;
+}
+header figure img {
+  width: 100%;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-end;
+  justify-items: center;
+  width: 100%;
+  color: orangered;
+  margin-right: 50px;
+}
+.options span {
+  margin: 5px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: antiquewhite;
+  margin-top: 70px;
+}
+.container img {
+  width: 70px;
+  height: 70px;
+  margin-left: 40px;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 0%;
+  margin-block-start: 0%;
+  width: 100%;
+}
+.nosotros .we {
+  font-size: 40px;
+  color: orangered;
+  margin: auto;
+}
+
+.work {
+  color: orangered;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.team .person-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.team .person-container .person {
+  color: orangered;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: orangered;
+  height: 50px;
+}
+footer .email {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  width: 50px;
+  margin-left: 50px;
+}
+footer .social {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.nosotras {
+  color: orangered;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.personal-info .foto {
+  width: 200px;
+  height: 200px;
+}
+.personal-info .foto img {
+  width: 100%;
+}
+.personal-info .names {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 300px;
+}
+.personal-info .names .name {
+  font-size: 30px;
+}
+.personal-info .names .job {
+  font-size: 20px;
+}
+.personal-info .names p {
+  width: 500px;
+  margin: 5px;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.total .arriba {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.total .arriba .servicios {
+  width: 350px;
+  height: 350px;
+  background-color: #ecc06e;
+  border-radius: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 11px;
+  text-align: center;
+}
+.total .arriba .servicios p {
+  text-align: center;
+  font-size: 15px;
+  margin: 0%;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.avatar .avatar-name {
+  text-align: center;
+  margin-left: 50px;
+  font-size: 20px;
+  color: orangered;
+}
+
+@media (max-width: 800px) {
+  figure {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nosotros {
+    width: 100%;
+    margin-left: 50px;
+  }
+  .nosotros p {
+    width: 100%;
+  }
+
+  .signos {
+    display: none;
+  }
+
+  .work {
+    display: none;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
